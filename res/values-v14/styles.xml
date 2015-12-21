@@ -1,0 +1,19 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <!-- <style name="AppBaseTheme" parent="@style/Theme.Solin_actionbar"> -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!-- API 14 theme customizations can go here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+      	<!-- <item name="android:listChoiceIndicatorMultiple">@drawable/solin_components_btn_check_holo_dark</item> -->
+		<!-- <item name="android:buttonStyle">@style/solin_button</item> -->
+		<!-- <item name="android:imageButtonStyle">@style/solin_button</item> -->
+		<!-- <item name="android:spinnerStyle">@style/solin_spinner</item> -->
+		<!-- <item name="android:dropDownSpinnerStyle">@style/solin_spinner</item> -->
+    </style>
+
+</resources>

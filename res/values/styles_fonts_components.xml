@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!-- Font styles -->
+  
+    <style name="h1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/logo_blue</item>
+    </style>
+  
+    <style name="h2">
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:textColor">@color/light_gray</item>
+    </style>
+    
+    <style name="drawer_item">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+    
+    <style name="tabstrip">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/light_gray</item>
+    </style>
+    
+    <style name="p">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/light_gray</item>
+    </style>
+    
+    <style name="a">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/light_gray</item>
+    </style>
+    
+    <style name="small">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/light_gray</item>
+    </style>
+    
+    <style name="NotificationText" parent="android:TextAppearance.StatusBar.EventContent" />
+    
+    <style name="NotificationTitle" parent="android:TextAppearance.StatusBar.EventContent.Title" />
+    
+    <!-- Component Styles -->
+    
+    <style name="MyActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/dark_gray</item>
+    </style>
+    
+    <style name="background_box">
+        <item name="android:background">@drawable/background_box</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    
+    <style name="horizontal_bar">
+        <item name="android:background">@drawable/horizontal_bar</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="fragment_container">
+    	<item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+    	<item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+    	<item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    	<item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+    </style>
+	
+    <!-- <style name="solin_switch">
+		<item name="android:thumb">@drawable/solin_components_switch_inner_holo_dark</item>
+		<item name="android:track">@drawable/solin_components_switch_track_holo_dark</item>
+	</style>
+	
+    <style name="solin_button" parent="android:Widget.Holo.Button">
+        <item name="android:background">@drawable/solin_components_btn_default_holo_dark</item>
+  	</style>
+  	
+  	<style name="solin_spinner" parent="android:Widget.Holo.Spinner">
+        <item name="android:background">@drawable/solin_components_spinner_background_holo_dark</item>
+        <item name="android:dropDownSelector">@drawable/solin_components_list_selector_holo_dark</item>
+    </style> -->
+    
+</resources>

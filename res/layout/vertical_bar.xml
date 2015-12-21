@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+    	
+	<TextView
+        android:id="@+id/vertical_bar_offset"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />
+    	
+	<TextView
+        android:id="@+id/vertical_bar_top"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="1dp"
+    	android:layout_marginRight="1dp"
+    	android:layout_below="@+id/vertical_bar_offset" />
+	
+	<TextView
+        android:id="@+id/vertical_bar_middle"
+    	android:layout_below="@+id/vertical_bar_top"
+    	android:layout_marginLeft="1dp"
+    	android:layout_marginRight="1dp"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />
+	
+	<TextView
+        android:id="@+id/vertical_bar_bottom"
+    	android:layout_below="@+id/vertical_bar_middle"
+    	android:layout_marginLeft="1dp"
+    	android:layout_marginRight="1dp"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />
+    
+	<RelativeLayout
+        android:id="@+id/vertical_bar_label"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/vertical_bar_bottom" >
+    	
+	    <ImageView
+        	android:id="@+id/vertical_bar_label_icon"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:scaleType="fitStart" />
+	        	
+	    <TextView
+        	android:id="@+id/vertical_bar_label_text"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_toEndOf="@id/vertical_bar_label_icon" />
+	
+	</RelativeLayout>
+	
+</RelativeLayout>

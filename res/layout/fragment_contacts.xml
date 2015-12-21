@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/fragment_container"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/fragment_contacts_add_contact"
+        style="@style/background_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <TextView
+        android:id="@+id/fragment_contacts_add_contact_label"
+        style="@style/h1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_contact_label" />
+        
+        <TextView
+        android:id="@+id/fragment_contacts_contact_chooser"
+        style="@style/h2"
+        android:layout_below="@id/fragment_contacts_add_contact_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/todo" />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/fragment_contacts_important_contacts"
+        style="@style/background_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/fragment_contacts_important_contacts_label"
+            style="@style/h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/important_contacts_label" />
+
+        <TextView
+            android:id="@+id/fragment_contacts_no_important_contacts"
+            style="@style/p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_contacts_important_contacts_label"
+            android:text="@string/no_important_contacts" />
+
+        <TextView
+            android:id="@+id/fragment_contacts_no_important_contacts_hint"
+            style="@style/small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_contacts_no_important_contacts"
+            android:text="@string/empty" />
+
+        <ListView
+            android:id="@+id/fragment_contacts_important_contacts_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_contacts_important_contacts_label" />
+        
+    </RelativeLayout>
+    
+</LinearLayout>

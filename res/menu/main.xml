@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_manage_contacts"
+        android:orderInCategory="47"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/action_manage_contacts"/>
+	
+	<item
+        android:id="@+id/action_help"
+        android:orderInCategory="48"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_help"
+        android:title="@string/action_help"/>
+	
+	<item
+        android:id="@+id/action_settings"
+        android:orderInCategory="49"
+        android:showAsAction="never"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/action_settings"/>
+	
+	<item
+        android:id="@+id/action_about"
+        android:orderInCategory="50"
+        android:showAsAction="never"
+        android:icon="@drawable/ic_action_about"
+        android:title="@string/action_about"/>
+	
+	<item
+        android:id="@+id/action_feedback"
+        android:orderInCategory="51"
+        android:showAsAction="never"
+        android:icon="@drawable/ic_action_good"
+        android:title="@string/action_feedback"/>
+
+</menu>

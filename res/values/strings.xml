@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Title -->
+    <string name="app_name">Datenkrake</string>
+    <string name="service_name">Datenkrake</string>
+
+    <!-- Drawer Titles -->
+    <string name="title_drawer_item_overview">Übersicht</string>
+    <string name="title_drawer_item_contacts">Kontakte</string>
+    <string name="title_drawer_item_areas">Gebiete</string>
+    <string name="title_drawer_item_times">Zeit mit dem Smartphone</string>
+    <string name="title_drawer_item_communication">Kommunikation</string>
+    <string name="title_drawer_item_stresslevel">Stresslevel</string>
+    
+    <!-- Activity/Fragment Titles -->
+    <string name="title_fragment_overview">Übersicht</string>
+    <string name="title_fragment_important_contacts">Kontakte</string>
+    <string name="title_fragment_learn_areas">Gebiete lernen</string>
+    <string name="title_fragment_recent_cells">Letzte Zellen</string>
+    <string name="title_fragment_phone_time">Insgesamt</string>
+    <string name="title_fragment_app_times">Pro App</string>
+    <string name="title_fragment_communication_statistics">Kommunikation</string>
+    <string name="title_fragment_perceived_stress">Gefühlter Stresslevel</string>
+    <string name="title_fragment_measured_stress">Gemessener Stresslevel</string>
+
+    <!-- ActionBar Buttons -->
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_manage_contacts">Gruppe bearbeiten</string>
+    <string name="action_about">Über diese App</string>
+    <string name="action_help">Hilfe</string>
+    <string name="action_feedback">Feedback</string>
+    
+    <!-- Dialog Titles -->
+    <string name="title_dialog_about">Über diese App</string>
+    <string name="title_dialog_help">Über diese Activity</string>
+    <string name="title_dialog_configure">Datenkrake konfigurieren!</string>
+    <string name="title_dialog_welcome">Willkommen!</string>
+    <string name="title_dialog_learn_duration">Wie lange befinden Sie sich hier?</string>
+    <string name="title_dialog_choose_action">Aktion auswählen</string>
+    <string name="title_dialog_stresslevel_details">Stresslevels am</string>
+    <string name="title_notification_stresslevel">Wie beurteilen Sie Ihren Stresslevel?</string>
+
+    <!-- Dialog Texts/Buttons -->
+    <string name="dialog_text_welcome">Herzlich Willkommen zu Datenkrake. Bitte erstellen Sie zunächst eine Gruppe \"Wichtig\" unter dem Menüpunkt \"Kontakte\" und geben Sie Datenkrake Benachrichtigungszugriff, um Informationen zu sammeln.</string>
+    <string name="dialog_text_about">Diese App wird entwickelt von Frank, Thomas und Svenja</string>
+    <string name="dialog_text_config_contactlist">Datenkrake ist noch nicht vollständig konfiguriert: Bitte erstellen Sie eine Gruppe \"Wichtig\" unter dem Menüpunkt \"Kontakte\".</string>
+    <string name="dialog_text_config_notif_access">Datenkrake ist noch nicht ausreichend konfiguriert: Um Informationen zu sammeln benötigt Datenkrake Benachrichtigungszugriff.</string>
+    <string name="dialog_text_config_contactlist_and_notif_access">Datenkrake ist noch nicht ausreichend konfiguriert. Bitte erstellen Sie eine Gruppe \"Wichtig\" unter dem Menüpunkt \"Kontakte\". Um Informationen zu sammeln benötigt Datenkrake außerdem Benachrichtigungszugriff.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="not_now">Nicht jetzt</string>
+    <string name="attention">Achtung</string>
+    <string name="give_notification_access">Benachrichtigungszugriff geben</string>
+    
+    <!-- Help Texts -->
+    <string name="help_dialog_main">Hier können Sie den Herzfrequenzmesser mit der App verbinden und Sie sehen den Status Ihrer Badges.\n\nGefühlter Stress: Sie sollten die Benachrichtigung zeitnah beantworten.\n\nKontakte: Richten Sie die Kontakte-Gruppe \"Wichtig\" ein.\n\nNutzungsdauer: Nutzen Sie die Datenkrake für einen gewissen Zeitraum.</string>
+    <string name="help_dialog_contacts">Hier können Sie ihre Kontakte gruppieren</string>
+    <string name="help_dialog_areas">Hier können Sie Datenkrake neue Gebiete lernen lassen</string>
+    <string name="help_dialog_times">Hier können Sie Informationen über die Zeit mit Ihrem Smartphone erhalten</string>
+    <string name="help_dialog_communication">Hier können Sie Informationen über Ihr Kommunikationsverhalten erhalten. Gelistet sind alle eingehenden Kommunikationsereignisse, die eine Benachrichtigung hinterlassen d.h. von Apps, die nicht gerade im Vordergrund waren.</string>
+    <string name="help_dialog_stress_perceived">Hier können Sie Informationen über Ihren Stresslevel erhalten</string>
+
+    <!-- Preferences -->
+    <string name="pref_acra_enabled">Absturzberichte werden den Entwicklern gesendet</string>
+    <string name="pref_acra_disabled">Es werden keine Absturzberichte gesendet</string>
+    <string name="pref_disable_acra">ACRA deaktivieren</string>
+    <string name="pref_stress_query_early">Zeit der ersten Stresslevel-Abfrage</string>
+    <string name="pref_stress_query_early_default">09:00</string>
+    <string name="pref_stress_query_late">Zeit der zweiten Stresslevel-Abfrage</string>
+    <string name="pref_stress_query_late_default">19:00</string>
+    <string name="stress_query_late_after_early">Die erste Stresslevel-Abfrage muss nach der zweiten erfolgen!</string>
+    <string name="pref_data_upload_summary">Hier klicken, um gesammelte Daten manuell hochzuladen</string>
+    <string name="pref_data_upload">Datenupload</string>
+
+    <!-- Areas -->
+    <string name="area_unknown">Unbekannt</string>
+    <string name="area_home">Zu Hause/Freizeit</string>
+    <string name="area_work">Arbeit/Uni</string>
+    <string name="current_area_label">Aktuelles Gebiet</string>
+    <string name="delete_area">Gebiet löschen</string>
+    <string name="learn_area">Gebiet erfassen</string>
+    <string name="cancel_learning">Abbrechen</string>
+    <string name="delete_from_area">Zelle aus angegebenem Gebiet löschen</string>
+    <string name="add_to_area">Zelle einem Gebiet zuordnen</string>
+    <string name="no_cells_in_this_area">Keine Zellen bekannt</string>
+    <string name="toast_started_learning">Das gewählte Gebiet wird nun gelernt&#8230;</string>
+    <string name="toast_stopped_learning">Lernen des Gebietes wurde beendet.</string>
+    <string name="known_cells">Bekannte Zellen:</string>
+
+    <!-- Contacts -->
+    <string name="important_contacts_label">Wichtige Kontakte</string>
+    <string name="no_important_contacts">Keine wichtigen Kontakte</string>
+    <string name="no_important_contacts_hint">Bearbeiten Sie die Gruppe, um Kontakte hinzuzufügen</string>
+    <string name="no_important_group_hint">Erstellen Sie die Gruppe \"Wichtig\", und fügen Sie Kontakte hinzu</string>
+    <string name="add_contact_label">Kontakt hinzufügen</string>
+    <string name="group_important">Wichtig</string>
+    <string name="group_unassigned">Normal</string>
+
+    <!-- Zephyr -->
+    <string name="zephyr_label">Zephyr</string>
+    <string name="zephyr_connected">Verbunden</string>
+    <string name="zephyr_disconnected">Getrennt</string>
+    <string name="heart_rate_label">Puls</string>
+    <string name="instant_speed_label">Aktuelle Geschwindigkeit</string>
+
+    <!-- Statistics -->
+    <string name="communication_media">Kommunikationsmittel</string>
+    <string name="all">Alle</string>
+    <string name="mails">E-Mails</string>
+    <string name="messages">IM</string>
+    <string name="calls">Anrufe</string>
+    <string name="screen_on_off">Bildschirm angeschaltet</string>
+    <string name="screen_on">Handy genutzt</string>
+    <string name="today">Heute</string>
+    <string name="since_installation">Seit Installation</string>
+    <string name="per_group">pro Gruppe</string>
+    <string name="per_area">pro Gebiet</string>
+    <string name="app_times_label">App-Nutzung</string>
+    <string name="top_contacts_label">Top Kontakte</string>
+    <string name="last30days_label">Letzte 30 Tage</string>
+
+    <!-- Crashes -->
+    <string name="crash_toast_text">Uuuups! Ich bin abgestürzt, aber ein Report darüber wird an den Entwickler gesendet, um das Problem beheben zu können.</string>
+    <string name="crash_dialog_title">Datenkrake ist abgestürzt</string>
+    <string name="crash_dialog_text">Ein unerwarteter Fehler ist aufgetreten, der die App beendet hat. Bitte helfen Sie uns das Problem zu beheben, indem Sie uns die Fehler Daten schicken. Sie müssen nur OK drücken.</string>
+    <string name="crash_dialog_comment_prompt">Sie können hier einen Kommentar über das Problem hinterlassen:</string>
+    <string name="crash_dialog_ok_toast">Danke!</string>
+
+    <!-- Feedback -->
+    <string name="feedback">Feedback geben</string>
+    <string name="mailing_list">"Datenkrake@kom.tu-darmstadt.de"</string>
+    <string name="mailing_list_subject">Feedback zu </string>
+    <string name="send_mail">E-Mail senden&#8230;</string>
+
+    <!-- Accessibility -->
+    <string name="drawer_open">Drawer öffnen</string>
+    <string name="drawer_close">Drawer schließen</string>
+    <string name="badge_icon">Badge Icon</string>
+
+    <!-- Other -->
+    <string name="empty"></string>
+    <string name="zero">0</string>
+    <string name="todo">Todo</string>
+    <string name="hour">h</string>
+    <string name="minute">m</string>
+    <string name="second">s</string>
+    <string name="time_suffix">Uhr</string>
+    <string name="no_stresslevel_details">An diesem Tag wurden keine Angaben zum Stresslevel gemacht.</string>
+    <string name="badges_label">Badges</string>
+    <string name="scroll_diagonal">Vorrübergehend DIAGONAL scrollen</string>
+
+</resources>

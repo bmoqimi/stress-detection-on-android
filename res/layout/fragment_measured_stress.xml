@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/fragment_container" >
+
+    <RelativeLayout
+        style="@style/background_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/fragment_measured_stress_label"
+            style="@style/h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_fragment_measured_stress" />
+        
+        <TextView
+            android:id="@+id/fragment_measured_stress_hint"
+            style="@style/small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scroll_diagonal"
+    		android:layout_below="@id/fragment_measured_stress_label"
+            android:textColor="@color/red" />
+        
+        <LinearLayout 
+            android:id="@+id/fragment_measured_stress_controls"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_below="@id/fragment_measured_stress_hint"
+    		android:orientation="horizontal">
+            
+            <Button 
+            	android:id="@+id/fragment_measured_stress_controls_back"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content" />
+            
+            <Button 
+            	android:id="@+id/fragment_measured_stress_controls_today"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content" />
+            
+            <Button 
+            	android:id="@+id/fragment_measured_stress_controls_forward"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content" />
+            
+            <TextView
+            	android:id="@+id/fragment_measured_stress_current_date"
+            	style="@style/p"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/empty" />
+            
+        </LinearLayout>
+ 
+    	<LinearLayout
+        	android:id="@+id/chart_container"
+        	android:orientation="horizontal"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/fragment_measured_stress_controls" />
+        
+	</RelativeLayout>
+
+</LinearLayout>

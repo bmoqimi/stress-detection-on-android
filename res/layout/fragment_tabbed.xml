@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<android.support.v4.view.ViewPager 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabbedFragment" >
+
+    <!-- This title strip will display the currently visible page title, 
+    as well as the page titles for adjacent pages. -->
+    <android.support.v4.view.PagerTabStrip
+        android:id="@+id/fragment_tabbed_tab_strip"
+        style="@style/tabstrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="top"
+        android:background="@color/tab_strip_background" />
+
+</android.support.v4.view.ViewPager>

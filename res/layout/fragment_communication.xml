@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/fragment_container" >
+
+    <RelativeLayout
+        style="@style/background_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/fragment_communication_top_contacts_label"
+            style="@style/h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_contacts_label" />
+
+        <TextView
+            style="@style/h2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_communication_top_contacts_label"
+            android:text="@string/todo" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/background_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <TextView
+            android:id="@+id/stats_label"
+            style="@style/h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/communication_media" />
+
+        <Spinner
+            android:id="@+id/fragment_communication_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stats_label" />
+
+        <RelativeLayout
+            android:id="@+id/fragment_communication_controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_communication_spinner" >
+            
+            <RadioGroup
+                android:id="@+id/fragment_communication_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/fragment_communication_radio_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/all" />
+
+                <RadioButton
+                    android:id="@+id/fragment_communication_radio_per_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/per_group" />
+
+                <RadioButton
+                    android:id="@+id/fragment_communication_radio_per_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/per_area" />
+                
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/fragment_communication_legend_bottom_bar"
+                style="@style/small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_communication_radio_group"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp" />
+
+            <TextView
+                android:id="@+id/fragment_communication_legend_middle_bar"
+                style="@style/small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_communication_radio_group"
+                android:layout_toEndOf="@id/fragment_communication_legend_bottom_bar"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp" />
+
+            <TextView
+                android:id="@+id/fragment_communication_legend_top_bar"
+                style="@style/small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_communication_radio_group"
+                android:layout_toEndOf="@id/fragment_communication_legend_middle_bar"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp" />
+            
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_communication_barchart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/fragment_communication_controls"
+            android:orientation="horizontal" />
+        
+    </RelativeLayout>
+
+</LinearLayout>

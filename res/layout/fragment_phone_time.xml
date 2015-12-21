@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/fragment_container" >
+
+    <RelativeLayout
+        style="@style/background_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/fragment_phone_time_since_installation_label"
+            style="@style/h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/since_installation" />
+
+        <TextView
+            android:id="@+id/fragment_phone_time_since_installation"
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_phone_time_since_installation_label" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/background_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/fragment_phone_time_barchart_label"
+            style="@style/h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/last30days_label" />
+
+        <ListView
+            android:id="@+id/fragment_phone_time_barchart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_phone_time_barchart_label"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10dp" />
+        
+    </RelativeLayout>
+
+</LinearLayout>

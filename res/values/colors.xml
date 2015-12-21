@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	
+    <!-- Default -->
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="black">#000000</color>
+    
+    <!-- Datenkrake -->
+    <color name="dark_gray">#333333</color>
+    <color name="dark_gray_80">#CC333333</color>
+    <color name="light_gray">#E6E6E6</color>
+    <color name="light_gray_80">#CCE6E6E6</color>
+    <color name="logo_blue">#009daa</color>
+    <color name="light_blue">#74a7ab</color>
+    <color name="light_green">#6bab5e</color>
+    <color name="light_red">#ab6c5e</color>
+    <color name="bright_red_80">#ccfe2e2e</color>
+    <color name="bright_orange_80">#ccfe9a2e</color>
+    <color name="bright_yellow_80">#ccf7fe2e</color>
+    <color name="bright_green_80">#cc9afe2e</color>
+    <color name="bright_dark_green_80">#cc2efe2e</color>
+   
+    <!-- Color Usage -->
+    <color name="tab_indicator_color">@color/light_gray</color>
+    <color name="tab_strip_background">@color/dark_gray_80</color>
+    <color name="background_box_color">@color/dark_gray_80</color>
+    <color name="activity_background">@color/logo_blue</color>
+    <color name="settings_background">@color/dark_gray</color>
+    <color name="area_known_cells_divider_color">@android:color/transparent</color>
+    <color name="stresslevel_details_divider_color">@android:color/transparent</color>
+    <color name="barchart_divider_color">@android:color/transparent</color>
+    <color name="cellist_divider_color">@color/logo_blue</color>
+    <color name="navigation_drawer_divider_color">@color/light_gray</color>
+    <color name="navigation_drawer_background_color">@color/light_gray_80</color>
+    <color name="vertical_bar">@color/light_blue</color>
+    <color name="horizontal_bar">@color/light_blue</color>
+    <color name="stress_5">@color/bright_red_80</color>
+    <color name="stress_4">@color/bright_orange_80</color>
+    <color name="stress_3">@color/bright_yellow_80</color>
+    <color name="stress_2">@color/bright_green_80</color>
+    <color name="stress_1">@color/bright_dark_green_80</color>
+
+</resources>

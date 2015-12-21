@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <string-array name="navigation_drawer_items">
+        <item>@string/title_drawer_item_overview</item>
+        <item>@string/title_drawer_item_contacts</item>
+        <item>@string/title_drawer_item_areas</item>
+        <item>@string/title_drawer_item_times</item>
+        <item>@string/title_drawer_item_communication</item>
+        <item>@string/title_drawer_item_stresslevel</item>
+    </string-array>
+    
+    <string-array name="help_dialogs">
+        <item>@string/help_dialog_main</item>
+        <item>@string/help_dialog_contacts</item>
+        <item>@string/help_dialog_areas</item>
+        <item>@string/help_dialog_times</item>
+        <item>@string/help_dialog_communication</item>
+        <item>@string/help_dialog_stress_perceived</item>
+    </string-array>
+
+    <integer-array name="tab_nrs">
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    
+    <string-array name="stress_plot_x_labels">
+        <item>0:00</item>
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+        <item>6:00</item>
+        <item>7:00</item>
+        <item>8:00</item>
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+
+    <array name="area_colors">
+        <item>@color/light_red</item>
+        <item>@color/light_green</item>
+        <item>@color/light_blue</item>
+    </array>
+    
+    <string-array name="learn_duration_entries">
+        <item>1 Minuten</item>
+        <item>5 Minuten</item>
+        <item>15 Minuten</item>
+        <item>30 Minuten</item>
+        <item>45 Minuten</item>
+        <item>1 Stunde</item>
+        <item>1,5 Stunden</item>
+        <item>2 Stunden</item>
+        <item>3 Stunden</item>
+        <item>4 Stunden</item>
+    </string-array>
+    
+    <integer-array name="learn_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+    </integer-array>
+    
+    <string-array name="statistic_timespans_entries">
+        <item>Letzte 24 Stunden</item>
+        <item>Letzte 48 Stunden</item>
+        <item>Letzte 7 tage</item>
+        <item>Letzte 30 Tage</item>
+        <item>Seit Installation</item>
+    </string-array>
+
+    <integer-array name="statistic_timespans_values">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+        <item>30</item>
+        <item>0</item>
+    </integer-array>
+
+</resources>

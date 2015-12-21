@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/fragment_container"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/fragment_overview_zephyr"
+        style="@style/background_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/fragment_overview_zephyr_label"
+            style="@style/h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zephyr_label" />
+
+        <Switch
+            android:id="@+id/fragment_overview_zephyr_switch"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/fragment_overview_zephyr_label"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/fragment_overview_zephyr_label"
+            android:textOff="@string/zephyr_disconnected"
+            android:textOn="@string/zephyr_connected"
+            android:checked="false" />
+        
+        <TextView
+            android:id="@+id/fragment_overview_zephyr_status"
+            style="@style/small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_overview_zephyr_label"
+            android:text="@string/empty" />
+
+        <TextView
+            android:id="@+id/fragment_overview_heart_rate_label"
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/fragment_overview_zephyr_status"
+            android:text="@string/heart_rate_label" />
+
+        <TextView
+            android:id="@+id/fragment_overview_heart_rate"
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/fragment_overview_zephyr_status"
+            android:text="@string/zero" />
+
+        <TextView
+            android:id="@+id/fragment_overview_instant_speed_label"
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/fragment_overview_heart_rate_label"
+            android:text="@string/instant_speed_label" />
+
+        <TextView
+            android:id="@+id/fragment_overview_instant_speed"
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/fragment_overview_heart_rate"
+            android:text="@string/zero" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_overview_current_area"
+        style="@style/background_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/fragment_overview_current_area_label"
+            style="@style/h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/current_area_label" />
+
+        <TextView
+            android:id="@+id/fragment_overview_current_area_name"
+            style="@style/p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/fragment_overview_current_area_label"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/fragment_overview_current_area_label"
+            android:text="@string/area_unknown" />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/fragment_overview_badges"
+        style="@style/background_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/fragment_overview_badges_label"
+            style="@style/h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/badges_label" />
+    	
+    	<GridView 
+        	android:id="@+id/fragment_overview_badges_grid"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_overview_badges_label"
+    		android:background="@android:color/transparent"
+        	android:horizontalSpacing="10dp"
+        	android:verticalSpacing="10dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

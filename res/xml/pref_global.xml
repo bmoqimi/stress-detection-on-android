@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory 
+        android:title="ACRA"
+        android:key="acra">
+        
+	    <CheckBoxPreference 
+	        android:key="acra.disable"
+	        android:title="@string/pref_disable_acra"
+	        android:summaryOn="@string/pref_acra_disabled"
+	        android:summaryOff="@string/pref_acra_enabled"
+	        android:defaultValue="false" />
+	    
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="Stresslevel-Abfrage"
+        android:key="stress_query" >
+	    
+        <com.datenkrake.TimePreference
+            android:key="stress_early"
+            android:title="@string/pref_stress_query_early"
+	        android:defaultValue="@string/pref_stress_query_early_default" />
+        
+        <com.datenkrake.TimePreference
+            android:key="stress_late"
+            android:title="@string/pref_stress_query_late"
+	        android:defaultValue="@string/pref_stress_query_late_default" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="Daten"
+        android:key="data">
+        
+        <Preference
+            android:title="@string/pref_data_upload"
+            android:key="data_upload_button"
+            android:summary="@string/pref_data_upload_summary"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
